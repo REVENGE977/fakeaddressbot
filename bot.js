@@ -14,7 +14,7 @@ const address = fake[Math.floor(Math.random() * fake.length)];
     .addField('Country:', `${address.Country}`)
     .addField('CVV:', `${address.CVV}`)
     .addField('Exp:', `${address.Exp}`)
-    .addField('To Get Tempmail Go To This Website:', `https://temp-mail.org/ar/`)
+    .addField('To Get Temporary Mail Go To This Website:', `https://temp-mail.org/ar/`)
     .setTimestamp()
     .setColor('BLUE')
     .setFooter('**This Credit Card Number Is Vaild To Activate Accounts Only , Not For Buying Or Shopping**')
