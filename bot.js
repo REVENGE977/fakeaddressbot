@@ -1,6 +1,9 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 const prefix = 'f!'
+client.on('ready', () => {
+  console.log(`${client.user.username} is ready`)  
+})
 client.on('message', message => {
 let fake = require('./fake.json')
 const address = fake[Math.floor(Math.random() * fake.length)];
