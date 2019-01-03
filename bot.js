@@ -15,6 +15,7 @@ const address = fake[Math.floor(Math.random() * fake.length)];
     .addField('Name:', `${address.Name}`)
     .addField('Address:', `${address.Address}`)
     .addField('Country:', `${address.Country}`)
+    .addField('Birthday', `${address.Birthday}`)
     .addField('CVV:', `${address.CVV}`)
     .addField('Exp:', `${address.Exp}`)
     .addField('To Get Temporary Mail Go To This Website:', `https://temp-mail.org/ar/`)
